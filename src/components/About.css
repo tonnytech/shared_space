@@ -1,0 +1,87 @@
+.about_image_container {
+    background-image: url('../Assets/homepage/mt-1979-content-bg04.jpg');
+    background-size: cover;
+}
+
+.about_image_element {
+padding-top: 2.5rem;
+padding-left: 1rem;
+width: 90%;
+padding-right: 1rem;
+}
+
+.about_content_cover {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.about_heading_container {
+    padding: 1.5rem 0;    
+}
+
+.about_heading_container h2 {
+    color: var(--main-text-title);
+    font-weight: 100;
+    margin: 0;
+}
+
+.about_heading_container h1 {
+    font-weight: 450;
+    color: var(--main-text-subtitle);
+    font-size: 2rem;
+    margin: 0;
+}
+
+.about_content_container h3{
+    color: var(--main-highlighter);
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.7rem;
+    padding-bottom: 1.5rem;
+}
+
+.about_content_container p {
+    color: var(--about-text-title);
+    margin: 0;
+}
+
+.about_paragraph_two {
+    padding-top: 1rem;
+}
+
+@media only screen and (min-width: 479px) {
+    .about_image_element {
+        padding-top: 2.5rem;
+        padding-left: 1rem;
+        width: 90%;
+        max-width: 30rem;
+        padding-right: 1rem;
+        }
+}
+
+@media only screen and (min-width: 768px) {
+    .about_contents {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .about_image_container {
+        width: 50%;
+    }
+
+    .about_content_cover {
+        width: 50%;
+    }
+
+    .about_content_container {
+        padding-left: 4rem;
+    }
+}
+
+@media only screen and (min-width: 1039px) {
+    
+}
