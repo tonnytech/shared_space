@@ -32,8 +32,16 @@ code {
   --main-black: #141414;
   --main-orange: #f3b802;
   --first-shade-orange: #f1c388;
+  --main-text-title: #31393c;
+  --main-text-subtitle: #f3ad45;
+
 }
 
 .section {
   max-width: 1300px;
+}
+
+button {
+  border: none;
+  background-color: none;
 }

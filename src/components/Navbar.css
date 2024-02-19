@@ -1,9 +1,10 @@
 .NavbarMainContainer {
-  margin-bottom: 0;
-  padding-bottom: 0;
+  /* margin-bottom: 0;
+  padding-bottom: 0; */
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
+  padding: 1.3rem 1.3rem 0 1.3rem;
 }
 
 ul {
@@ -39,7 +40,7 @@ ul {
 .navbarListContainer {
   display: flex;
   justify-content: space-between !important;
-  z-index: 2;
+  z-index: 1;
 }
 
 .showMenu {
@@ -76,7 +77,7 @@ ul {
   .close ul {
     display: flex;
     flex-direction: row !important;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .open ul {
@@ -92,9 +93,9 @@ ul {
   .NavbarMainContainer {
     display: flex;
     align-items: center;
-    gap: 25rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    gap: 20rem;
+    /* margin-right: 2rem;
+    margin-left: 2rem; */
     position: absolute;
     z-index: 3;
     flex-direction: row;
@@ -106,9 +107,9 @@ ul {
   .NavbarMainContainer {
     display: flex;
     align-items: center;
-    gap: 40rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    gap: 37rem;
+    /* margin-right: 2rem;
+    margin-left: 2rem; */
     position: absolute;
     z-index: 3;
     flex-direction: row;

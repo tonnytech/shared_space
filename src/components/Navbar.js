@@ -41,11 +41,11 @@ const Navbar = () => {
           <li className="mobileLogo">
             <img src={office} className="hamburger" alt="hamburgerMobile" />
           </li>
-          <li>About</li>
-          <li>Location</li>
-          <li>Gallery</li>
-          <li>News</li>
-          <li>Pages</li>
+          <li>ABOUT</li>
+          <li>LOCATION</li>
+          <li>GALLERY</li>
+          <li>NEWS</li>
+          <li>PAGES</li>
         </ul>
         <div
           role="button"
