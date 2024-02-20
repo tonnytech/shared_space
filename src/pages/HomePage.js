@@ -1,13 +1,13 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import AboutComponent from '../components/About';
-
-// import './HomePage.css';
+import StatsComponent from '../components/StatsComponent';
 
 const HomePage = () => (
   <>
     <Hero />
     <AboutComponent />
+    <StatsComponent />
   </>
 );
 

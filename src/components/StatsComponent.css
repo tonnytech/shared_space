@@ -1,0 +1,15 @@
+.stats_container {
+    background-image: url(../Assets/homepage/mt-1979-content-bg02.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.stats_cover {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    max-width: 50%;
+}
