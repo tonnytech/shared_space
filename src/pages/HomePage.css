@@ -1,0 +1,122 @@
+.section_container {
+    /* margin: 0 .5rem; */
+}
+
+.hero_container {
+    background-image: url('../Assets/homepage/mt-1979-content-bg01.jpg');
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero_intro {
+    padding-top: 11.8rem;
+    margin-left: 1.5rem;
+}
+
+.hero_intro_head {
+    color: var(--main-text-title);
+    font-size: 1.2rem;
+}
+
+.hero_intro_body {
+    color: var(--main-text-subtitle);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero_intro_refresh {
+    color: var(--main-text-title);
+    margin-bottom: 1.5rem;
+}
+
+.hero_intro_button {
+    border: none;
+    background-color: var(--main-text-subtitle);
+    padding: 1rem;
+    color: var(--main-white);
+    border-radius: 2rem;
+}
+
+@media only screen and (min-width: 479px) {
+
+    .hero_intro {
+        padding-top: 6rem;
+        margin-left: 1.5rem;
+    }
+    .hero_intro_head {
+        font-size: 1.5rem;
+    }
+
+    .hero_intro_body {
+        color: var(--main-text-subtitle);
+        font-size: 4rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    .hero_intro_refresh {
+        font-size: 1.5rem;
+    }
+    .hero_intro_button {
+        padding: 1rem;
+        color: var(--main-white);
+        border-radius: 2rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .hero_intro {
+        padding-top: 10rem;
+        margin-left: 1.5rem;
+    }
+
+    .hero_intro_body {
+        color: var(--main-text-subtitle);
+        font-size: 4rem;
+        max-width: 5rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 1039px) {
+    .hero_container {
+        background-image: url('../Assets/homepage/mt-1979-content-bg01.jpg');
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .hero_intro {
+        padding-top: 14rem;
+        margin-left: 13rem;
+    }
+
+    .hero_intro_head {
+        font-size: 3rem;
+    }
+    
+    .hero_intro_body {
+        font-size: 5rem;
+        font-weight: 800;
+    }
+    
+    .hero_intro_refresh {
+        color: var(--main-text-title);
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .hero_intro_button {
+        border: none;
+        background-color: var(--main-text-subtitle);
+        color: var(--main-white);
+        font-size: 2rem;
+        border-radius: 2rem;
+    }
+}

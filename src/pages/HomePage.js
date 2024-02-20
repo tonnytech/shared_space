@@ -1,10 +1,14 @@
 import React from 'react';
-import Navbar from "../components/Navbar"
+import Hero from '../components/Hero';
+import AboutComponent from '../components/About';
+
+// import './HomePage.css';
 
 const HomePage = () => (
-  <section>
-   <Navbar/>
-  </section>
+  <>
+    <Hero />
+    <AboutComponent />
+  </>
 );
 
 export default HomePage;
