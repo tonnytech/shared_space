@@ -16,7 +16,7 @@ const AboutComponent = () => (
 
             <div className='about_content_container'>
                 <h3>"Everyone needs a workplace"</h3>
-                <p>
+                <p className='about_paragraph_one'>
                     With more young entrepreneurs now than
                      ever before in the history of our country,
                       we figured they all need a nice workplace!
