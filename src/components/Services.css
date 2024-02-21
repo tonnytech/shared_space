@@ -1,0 +1,111 @@
+.service_image_wrapper {
+    position: relative;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.service_image_two_wrapper {
+    display: none;
+    width: 13re;
+}
+
+.service_image_two {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.service_image_one_wrapper {
+    width: 13re;
+}
+
+.service_image_one {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.services_header_wrapper h1 {
+    font-size: 15px;
+    color: var(--about-text-title);
+    line-height: 0.9;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services_header_wrapper h2 {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: var(--main-text-subtitle);
+}
+
+@media only screen and (min-width: 769px) {
+    .service_image_wrapper {
+        position: relative;
+        padding-left: 40%;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .service_image_two_wrapper {
+        position: absolute;
+        display: block;
+        width: 100%;
+        top: 2rem;
+        left: -10px;
+        z-index: -1 !important;
+        max-width: 70rem;
+    }
+
+    .service_image_two {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        z-index: -1 !important;
+    }
+
+    .services_header_wrapper{
+        z-index: 1 !important;
+    }
+
+    .service_image_one_wrapper {
+        z-index: 1 !important;
+        width: 80%;
+        max-width: 33.5rem;
+    }
+    
+    .service_image_one {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        z-index: 2;
+    }
+
+}
+
+@media only screen and (min-width: 1039px) {
+    .service_image_one_wrapper {
+        z-index: 1 !important;
+        width: 100%;
+        max-width: 42rem;
+    }
+
+    .service_image_two {
+        height: 100%;
+        width: 155%;
+        object-fit: contain;
+        z-index: -1 !important;
+    }
+
+    .service_image_two_wrapper {
+        position: absolute;
+        display: block;
+        width: 100%;
+        top: -5rem;
+        left: -2rem;
+        z-index: -1 !important;
+        max-width: 70rem;
+    }   
+}
