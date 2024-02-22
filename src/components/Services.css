@@ -53,15 +53,16 @@
         position: absolute;
         display: block;
         width: 100%;
-        top: 2rem;
-        left: -10px;
+        top: -2rem;
+        left: -10rem;
         z-index: -1 !important;
         max-width: 70rem;
+        overflow: hidden;
     }
 
     .service_image_two {
         height: 100%;
-        width: 100%;
+        width: 150%;
         object-fit: contain;
         z-index: -1 !important;
     }
@@ -72,8 +73,25 @@
 
     .service_image_one_wrapper {
         z-index: 1 !important;
-        width: 80%;
-        max-width: 33.5rem;
+        width: 100%;
+        /* max-width: 33.5rem; */
+    }
+
+    .services_header_wrapper h1 {
+        /* font-size: 15px; */
+        font-size: 1.5rem;
+        color: var(--about-text-title);
+        line-height: 0.9;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .services_header_wrapper h2 {
+        font-weight: 500;
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        color: var(--main-text-subtitle);
     }
     
     .service_image_one {
@@ -86,26 +104,54 @@
 }
 
 @media only screen and (min-width: 1039px) {
-    .service_image_one_wrapper {
-        z-index: 1 !important;
-        width: 100%;
-        max-width: 42rem;
-    }
+   .service_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
 
-    .service_image_two {
-        height: 100%;
-        width: 155%;
-        object-fit: contain;
-        z-index: -1 !important;
-    }
+   .service_image_wrapper {
+    position: relative;
+    padding-left: 30%;
+    padding-right: 0;
+    margin-right: 0;
+    max-width: 1039px;
+}
 
-    .service_image_two_wrapper {
-        position: absolute;
-        display: block;
-        width: 100%;
-        top: -5rem;
-        left: -2rem;
-        z-index: -1 !important;
-        max-width: 70rem;
-    }   
+.service_image_two_wrapper {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: -9rem;
+    left: -20rem;
+    z-index: -1 !important;
+    max-width: 70rem;
+    overflow: hidden;
+}
+
+.service_image_two {
+    height: 100%;
+    width: 180%;
+    object-fit: contain;
+    z-index: -1 !important;
+}
+.services_header_wrapper h1 {
+    /* font-size: 15px; */
+    font-size: 1.7rem;
+    color: var(--about-text-title);
+    line-height: 0.9;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services_header_wrapper h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: var(--main-text-subtitle);
+}
+
 }
