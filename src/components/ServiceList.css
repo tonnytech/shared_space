@@ -1,0 +1,49 @@
+.close_detail {
+    display: none;
+}
+
+.open_detail {
+    display: block;
+    color: var(--about-text-title);
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+}
+
+.title_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.title_wrapper_active {
+    border-bottom: 2px solid var(--main-text-subtitle);
+}
+
+.title_wrapper p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--subtitle_one);
+}
+
+.ul_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+
+
+/* .close_printer {
+    display: none;
+}
+
+.open_printer {
+    display: block;
+} */

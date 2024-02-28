@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import AboutComponent from '../components/About';
 import StatsComponent from '../components/StatsComponent';
 import Services from '../components/Services';
+import ServiceList from '../components/ServiceList';
 
 const HomePage = () => (
   <>
@@ -10,6 +11,7 @@ const HomePage = () => (
     <AboutComponent />
     <StatsComponent />
     <Services />
+    <ServiceList />
   </>
 );
 
